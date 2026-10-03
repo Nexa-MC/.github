@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/304438575?v=4" alt="NexaOrg" width="112" height="112">
+<img src="https://avatars.githubusercontent.com/u/304438575?v=4" alt="Nexa" width="112" height="112">
 
-# NexaOrg
+# Nexa
 
 **连接玩家、创作者与 Minecraft 的更多可能。**
 
@@ -14,7 +14,7 @@
 
 ## 从这里开始
 
-**NexaOrg** 围绕 Minecraft 构建启动器、账户与在线服务、插件开发工具和文档。我们希望让日常启动更顺手，让创作者更容易把想法做成可用的扩展。
+**Nexa** 围绕 Minecraft 构建启动器、账户与在线服务、插件开发工具和文档。我们希望让日常启动更顺手，让创作者更容易把想法做成可用的扩展。
 
 ### NexaLauncher
 
