@@ -1,65 +1,76 @@
 <div align="center">
 
-# PCL N Edition
+<img src="https://avatars.githubusercontent.com/u/304438575?v=4" alt="NexaOrg" width="112" height="112">
 
-**跨平台 Minecraft 启动器与开放插件生态**
+# NexaOrg
 
-基于 .NET 10 与 Avalonia，面向 Windows、Linux 和 macOS。
+**连接玩家、创作者与 Minecraft 的更多可能。**
 
-[官方网站与文档](https://docs.pcln.top/) · [下载启动器](https://github.com/PCL-N-Edition/PCL-N/releases/latest) · [反馈问题](https://github.com/PCL-N-Edition/PCL-N/issues/new/choose) · [插件 SDK](https://github.com/PCL-N-Edition/PCL-N-Plugin-SDK)
+跨平台启动器 · 云端服务 · 开放插件生态
+
+[官方网站](https://pcln.top/) · [使用文档](https://docs.pcln.top/) · [下载启动器](https://github.com/PCL-N-Edition/PCL-N/releases) · [反馈问题](https://github.com/PCL-N-Edition/PCL-N/issues/new/choose)
 
 </div>
 
-## 关于我们
+## 从这里开始
 
-PCL N Edition（Plain Craft Launcher N Edition）致力于打造现代、跨平台、可扩展的 Minecraft 启动体验。项目以模块化架构连接启动器、公开插件 SDK、插件中心、文档站与官方插件，在保持安全边界的同时为玩家和开发者提供一致的体验。
+**NexaOrg** 围绕 Minecraft 构建启动器、账户与在线服务、插件开发工具和文档。我们希望让日常启动更顺手，让创作者更容易把想法做成可用的扩展。
 
-- **跨平台**：支持 Windows、Linux、macOS 的 x64 与 ARM64
-- **现代技术栈**：使用 .NET 10、Avalonia 12，并提供多平台自动化构建
-- **完整启动能力**：覆盖实例管理、Java 选择、版本安装、资源下载与多种账号体系
-- **开放插件生态**：通过签名 `.pnp` 包、权限声明、隔离加载与公开 SDK 扩展启动器
-- **安全发布链路**：支持 OpenPGP 开发者签名、市场签名、包扫描和在线完整性验证
+### NexaLauncher
 
-## 核心项目
+跨平台 Minecraft 启动器，主仓库沿用 **PCL-N**，历史名称为 PCL N Edition。
 
-| 项目 | 说明 |
+基于 .NET 10 与 Avalonia，面向 Windows、Linux 和 macOS，提供实例管理、版本安装、Java 选择、账号登录与资源下载等能力。
+
+[查看源码](https://github.com/PCL-N-Edition/PCL-N) · [版本与下载](https://github.com/PCL-N-Edition/PCL-N/releases) · [提交反馈](https://github.com/PCL-N-Edition/PCL-N/issues/new/choose)
+
+### Nexa 云端服务
+
+官网、账户中心与在线服务共同连接启动器和社区。公开项目包括 Web 界面与独立身份服务，分别承担网站交互和账户认证。
+
+[访问官网](https://pcln.top/) · [Web 项目](https://github.com/PCL-N-Edition/PCL-N-Plugin-Center-Web) · [Auth 项目](https://github.com/PCL-N-Edition/PCL-N-Plugin-Center-Auth)
+
+### 插件与开发工具
+
+通过公开 SDK 为启动器编写扩展，或从官方插件和工具项目了解实现方式。
+
+| 项目 | 用途 |
 |---|---|
-| [PCL-N](https://github.com/PCL-N-Edition/PCL-N) | PCL N 跨平台 Minecraft 启动器主仓库 |
-| [PCL-N-Plugin-SDK](https://github.com/PCL-N-Edition/PCL-N-Plugin-SDK) | 第三方插件公开契约、分析器、测试宿主与 `.pnp` 构建工具 |
-| [PCLN-Docs](https://github.com/PCL-N-Edition/PCLN-Docs) | 用户文档与插件开发文档，发布于 [docs.pcln.top](https://docs.pcln.top/) |
-| [PCLN.Terracotta](https://github.com/PCL-N-Edition/PCLN.Terracotta) | 官方 Minecraft P2P 联机插件“陶瓦联机” |
-| [PCL-N-Plugin-Center-Web](https://github.com/PCL-N-Edition/PCL-N-Plugin-Center-Web) | 插件中心、发布者工作台与管理界面 |
-| [PCL-N-Plugin-Center-Server](https://github.com/PCL-N-Edition/PCL-N-Plugin-Center-Server) | 插件发布、审核、扫描与市场分发服务 |
-| [PCL-N-Patches](https://github.com/PCL-N-Edition/PCL-N-Patches) | 启动器版本间二进制差分与更新清单 |
+| [Plugin SDK](https://github.com/PCL-N-Edition/PCL-N-Plugin-SDK) | 公开契约、示例、分析器、测试宿主与签名 `.pnp` 打包工具 |
+| [Terracotta 陶瓦联机](https://github.com/PCL-N-Edition/PCLN.Terracotta) | Minecraft P2P 联机插件 |
+| [Plugin IDE](https://github.com/PCL-N-Edition/PCL-NE-Plugin-IDE) | 插件开发编辑器项目 |
+| [PXML Compiler](https://github.com/PCL-N-Edition/PXML-Compiler) | PXML 编译工具链 |
+| [Docs](https://github.com/PCL-N-Edition/PCLN-Docs) | 用户文档与插件开发文档 |
+| [Patches](https://github.com/PCL-N-Edition/PCL-N-Patches) | 启动器差分更新产物与清单 |
 
-## 插件开发
+[创建第一个插件](https://docs.pcln.top/plugin-sdk/Getting-Started) · [Manifest 参考](https://docs.pcln.top/plugin-sdk/Plugin-Manifest) · [权限与安全](https://docs.pcln.top/plugin-sdk/Permissions-and-Security) · [示例代码](https://github.com/PCL-N-Edition/PCL-N-Plugin-SDK/tree/main/examples/HelloPlugin)
 
-PCL N Plugin SDK 提供稳定的公开 ABI、Manifest Schema、权限与服务协商、本地化、宿主原生 UI、Avalonia 页面、测试工具以及可复现的签名 `.pnp` 打包流程。
+## 版本与项目状态
 
-当前 SDK 版本为 **0.2.0**。从以下资源开始：
+- 下载与更新请以各项目的 **Releases、发布说明和实际发布产物**为准
+- 开发分支、工具原型与已发布版本可能不同；具体平台支持和已知问题请查阅对应项目
+- 插件开发请核对 SDK 与目标启动器版本，使用公开接口，不依赖启动器内部实现
+- 历史仓库名和部分文档仍使用 PCL N / PCLN，现有链接可继续使用
 
-- [插件开发入门](https://docs.pcln.top/plugin-sdk/Getting-Started)
-- [完整 Manifest 参考](https://docs.pcln.top/plugin-sdk/Plugin-Manifest)
-- [权限与安全](https://docs.pcln.top/plugin-sdk/Permissions-and-Security)
-- [示例插件](https://github.com/PCL-N-Edition/PCL-N-Plugin-SDK/tree/main/examples/HelloPlugin)
+## 一起参与
 
-## 参与贡献
+欢迎提交问题、改进文档、测试新版本或贡献代码。
 
-欢迎通过 Issue 和 Pull Request 参与。提交前请阅读目标仓库的 README、开发说明与许可证，并确保：
+1. 在对应仓库提交 Issue，附上版本、系统、复现步骤与必要日志
+2. 提交 Pull Request 前，阅读仓库开发说明，并运行相关构建与测试
+3. 分享日志前移除令牌、密钥、账号信息和其他个人数据
+4. 安全漏洞请按相关仓库的安全政策，优先通过可用的私密渠道报告
 
-1. 问题提交到对应项目，而不是其他 PCL 分支或上游仓库；
-2. 代码改动通过该仓库的格式检查、构建和测试；
-3. 不在 Issue、日志、配置或提交中公开密钥、令牌及个人信息；
-4. 插件只依赖公开 SDK，不引用启动器私有程序集。
+[启动器问题反馈](https://github.com/PCL-N-Edition/PCL-N/issues) · [文档贡献](https://github.com/PCL-N-Edition/PCLN-Docs) · [支持项目](https://ifdian.net/a/pclne)
 
-## 许可与安全
+## 致谢与许可
 
-各仓库按其自身许可证发布；核心项目通常采用 Apache License 2.0，部分 Web 项目沿用 MIT License。请以对应仓库中的 `LICENSE` 和第三方声明为准。
+感谢 [PCL Community](https://github.com/PCL-Community/PCL-CE)、各项目的上游作者、第三方依赖维护者，以及每一位贡献者。PCL-N 保留其与 PCL-CE 的上游关系；本项目的问题请反馈到本组织对应仓库。
 
-发现安全问题时，请优先使用相关仓库的私密安全报告渠道，避免在公开 Issue 中披露可利用细节。
+各仓库独立采用其声明的许可证，请查阅对应的 `LICENSE`、`NOTICE` 与第三方声明，并保留上游署名。
 
 <div align="center">
 
-让 Minecraft 启动体验更现代、更开放，也更可靠。
+<sub>Building tools for Minecraft players and creators.</sub>
 
 </div>
