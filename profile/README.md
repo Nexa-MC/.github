@@ -20,7 +20,7 @@
 
 跨平台 Minecraft 启动器，源码与 Git 历史已迁移至 **[NexaCL](https://github.com/Nexa-MC/NexaCL)**，开发在唯一主分支 `main` 上继续。原 [PCL-N](https://github.com/Nexa-MC/PCL-N) 仓库已归档，历史版本仍可访问。
 
-当前预览版：**[NexaCL Firefly Alpha 9 · v2.0.0.alpha.9](https://github.com/Nexa-MC/NexaCL/releases/tag/v2.0.0.alpha.9)**。
+当前预览版：**[NexaCL Firefly Alpha 10 · v2.0.0.alpha.10](https://github.com/Nexa-MC/NexaCL/releases/tag/v2.0.0.alpha.10)**。
 
 基于 .NET 10 与 Avalonia，面向 Windows、Linux 和 macOS，提供实例管理、版本安装、Java 选择、账号登录与资源下载等能力。
 
