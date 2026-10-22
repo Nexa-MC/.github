@@ -20,13 +20,13 @@
 
 跨平台 Minecraft 启动器，源码与 Git 历史已迁移至 **[NexaCL](https://github.com/Nexa-MC/NexaCL)**，开发在唯一主分支 `main` 上继续。原 [PCL-N](https://github.com/Nexa-MC/PCL-N) 仓库已归档，历史版本仍可访问。
 
-当前预览版：**[NexaCL Firefly Alpha 10 · v2.0.0.alpha.10](https://github.com/Nexa-MC/NexaCL/releases/tag/v2.0.0.alpha.10)**。
+当前预览版：**[NexaCL Firefly Alpha 11 · v2.0.0.alpha.11](https://github.com/Nexa-MC/NexaCL/releases/tag/v2.0.0.alpha.11)**。
 
 基于 .NET 10 与 Avalonia，面向 Windows、Linux 和 macOS，提供实例管理、版本安装、Java 选择、账号登录与资源下载等能力。
 
 [查看源码](https://github.com/Nexa-MC/NexaCL) · [版本与下载](https://github.com/Nexa-MC/NexaCL-Update/releases) · [更新日志](https://github.com/Nexa-MC/NexaCL/blob/main/CHANGELOG.md) · [提交反馈](https://github.com/Nexa-MC/NexaCL/issues/new/choose)
 
-独立更新源 **[NexaCL-Update](https://github.com/Nexa-MC/NexaCL-Update)** 分发经校验的发布包、差分更新与签名，保留完整包回退；发布签名沿用现有可信公钥。Windows、macOS、Linux 均提供 x64 / arm64 构建。首次从旧版迁移时，请手动下载安装新版本，再导入已有的完整游戏目录。
+独立更新源 **[NexaCL-Update](https://github.com/Nexa-MC/NexaCL-Update)** 分发经校验的发布包、差分更新与签名，保留完整包回退；发布签名沿用现有可信公钥。Windows、macOS、Linux 均提供 x64 / arm64 构建。从历史 PCL-N 迁移时，请手动安装 NexaCL 并导入已有的完整游戏目录。Alpha 10 及更早便携版需先手动升级到 Alpha 11 一次，后续可在启动器内直接差分更新；便携版请放在可写目录并以普通权限运行。
 
 新增或导入非 Microsoft 账户前，全球范围内均须先通过 Microsoft 登录验证拥有 Minecraft Java 版。中国大陆不提供 Minecraft 本体下载服务；已有完整本地版本仍可启动或导入。
 
