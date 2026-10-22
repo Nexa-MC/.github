@@ -18,7 +18,7 @@
 
 ### NexaCL Firefly
 
-跨平台 Minecraft 启动器，源码与 Git 历史已迁移至 **[NexaCL](https://github.com/Nexa-MC/NexaCL)**，开发在唯一主分支 `main` 上继续。原 [PCL-N](https://github.com/Nexa-MC/PCL-N) 仓库已归档，历史版本仍可访问。
+跨平台 Minecraft 启动器，源码与 Git 历史已迁移至 **[NexaCL](https://github.com/Nexa-MC/NexaCL)**，开发在唯一主分支 `main` 上继续。
 
 当前预览版：**[NexaCL Firefly Alpha 11 · v2.0.0.alpha.11](https://github.com/Nexa-MC/NexaCL/releases/tag/v2.0.0.alpha.11)**。
 
@@ -36,28 +36,12 @@
 
 [访问官网](https://pcln.top/) · [Web 项目](https://github.com/Nexa-MC/PCL-N-Plugin-Center-Web) · [Auth 项目](https://github.com/Nexa-MC/PCL-N-Plugin-Center-Auth)
 
-### 插件与开发工具
-
-通过公开 SDK 为启动器编写扩展，或从官方插件和工具项目了解实现方式。
-
-| 项目 | 用途 |
-|---|---|
-| [Plugin SDK](https://github.com/Nexa-MC/PCL-N-Plugin-SDK) | 公开契约、示例、分析器、测试宿主与签名 `.pnp` 打包工具 |
-| [Terracotta 陶瓦联机](https://github.com/Nexa-MC/PCLN.Terracotta) | Minecraft P2P 联机插件 |
-| [Plugin IDE](https://github.com/Nexa-MC/PCL-NE-Plugin-IDE) | 插件开发编辑器项目 |
-| [PXML Compiler](https://github.com/Nexa-MC/PXML-Compiler) | PXML 编译工具链 |
-| [Docs](https://github.com/Nexa-MC/PCLN-Docs) | 用户文档与插件开发文档 |
-| [NexaCL-Update](https://github.com/Nexa-MC/NexaCL-Update) | 当前启动器的签名完整包、差分更新与发布清单 |
-
-[创建第一个插件](https://docs.pcln.top/plugin-sdk/Getting-Started) · [Manifest 参考](https://docs.pcln.top/plugin-sdk/Plugin-Manifest) · [权限与安全](https://docs.pcln.top/plugin-sdk/Permissions-and-Security) · [示例代码](https://github.com/Nexa-MC/PCL-N-Plugin-SDK/tree/main/examples/HelloPlugin)
-
 ## 版本与项目状态
 
 - 下载与更新请以各项目的 **Releases、发布说明和实际发布产物**为准
 - 开发分支、工具原型与已发布版本可能不同；具体平台支持和已知问题请查阅对应项目
 - 插件开发请核对 SDK 与目标启动器版本，使用公开接口，不依赖启动器内部实现
 - 当前源码与反馈入口为 `Nexa-MC/NexaCL`，发布分发入口为 `Nexa-MC/NexaCL-Update`
-- 历史 PCL N / PCLN 文档和 [旧版 Patches](https://github.com/Nexa-MC/PCL-N-Patches) 保留原有用途；插件开发请核对目标启动器与 SDK 的兼容版本
 
 ## 一起参与
 
@@ -70,10 +54,7 @@
 
 [启动器问题反馈](https://github.com/Nexa-MC/NexaCL/issues) · [文档贡献](https://github.com/Nexa-MC/PCLN-Docs) · [支持项目](https://ifdian.net/a/pclne)
 
-## 致谢与许可
-
-感谢 [PCL Community](https://github.com/PCL-Community/PCL-CE)、各项目的上游作者、第三方依赖维护者，以及每一位贡献者。NexaCL 保留迁移历史及原有的上游署名；本项目的问题请反馈到本组织对应仓库。
-
+## 许可
 各仓库独立采用其声明的许可证，请查阅对应的 `LICENSE`、`NOTICE` 与第三方声明，并保留上游署名。
 
 <div align="center">
